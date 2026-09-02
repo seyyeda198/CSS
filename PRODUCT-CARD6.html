@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product card</title>
+    <style>
+        .one {
+            border:2px solid black;
+            border-radius:20px 0px 20px 0px;
+            width:200px;
+            background-color:lightsalmon;  
+            margin:auto; 
+        }
+        div {
+            border:3px solid black;
+            margin:50px auto;
+            padding:20px;
+            width:300px;
+            text-align: center;
+        }
+
+        button.three {
+           padding:10px 20px;
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size:x-small;
+                }
+                div {
+                    margin:50px auto;
+                    width:80%;
+                }
+        }
+        @media only screen and (orientation: landscape) {
+          div {
+             background-color: lightblue;
+         }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="one"  src="https://www.mcgill.ca/oss/files/oss/styles/hd/public/perfume.jpg?itok=5drIAANl&timestamp=1499713750" alt="perfume" width="200" height="200">
+        <h2 class="two">PERFUME</h2>
+        <button class="three">Buy Now</button>
+    </div>
+</body>
+</html>

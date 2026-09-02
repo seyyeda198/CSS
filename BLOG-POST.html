@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogpost</title>
+    <style>
+        a[href^="https"] {
+            color:red;
+        }
+        img[src$=".jpg"] {
+            border-radius:0 20px 0 20px;
+        }
+        div.all {
+            display:flex;
+            gap:30px;
+        }
+        @media only screen and (max-width: 600px) {
+            div.all {
+                display:block;
+                font-size:small;
+            }
+            div.one {
+                width:100%;
+            }
+            div.two {
+                width:100%;
+            }
+            div.three {
+                width:100%;
+            }
+        }
+        @media (orientation: portrait) {
+            section {
+                background-color:lightyellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="all">
+    <div class="one">
+        <h2>Best Place To Visit In Paris</h2>
+        <img class="imag" src="https://t4.ftcdn.net/jpg/03/60/28/01/360_F_360280107_WvQVmz7gU7Aeg8kaVwlZv5yklWWW1k7N.jpg" width="200" height="200"><br>
+        <a class="first" href="https://www.toureiffel.paris/en">Read More</a>
+    </div>
+    <br>
+    <div class="two">
+        <h2>Latest Technology Trends</h2>
+        <img class="pic" src="https://www.foundit.in/career-advice/wp-content/uploads/2021/08/1546131447.jpg" width="200" height="200"><br>
+        <a class="sec" href="http://example.com">Read More</a>
+    </div>
+    <br>
+    <div class="three">
+        <h2>Delecious Food Recipes</h2>
+        <img src="FOOD.webp" width="200" height="200"><br>
+        <a class="third" href="https://www.food.com">Read More</a>
+    </div>
+    </div>
+    </section>
+    
+</body>
+</html>
